@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F620AB71C8A69E700A62469 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F620AB61C8A69E700A62469 /* AppDelegate.swift */; };
+		2F620AB91C8A69E700A62469 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F620AB81C8A69E700A62469 /* ViewController.swift */; };
+		2F620ABC1C8A69E700A62469 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F620ABA1C8A69E700A62469 /* Main.storyboard */; };
+		2F620ABE1C8A69E700A62469 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F620ABD1C8A69E700A62469 /* Assets.xcassets */; };
+		2F620AC11C8A69E700A62469 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F620ABF1C8A69E700A62469 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F620AB31C8A69E700A62469 /* Unleash Your Demon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unleash Your Demon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F620AB61C8A69E700A62469 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2F620AB81C8A69E700A62469 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2F620ABB1C8A69E700A62469 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F620ABD1C8A69E700A62469 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F620AC01C8A69E700A62469 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F620AC21C8A69E700A62469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F620AB01C8A69E700A62469 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F620AAA1C8A69E700A62469 = {
+			isa = PBXGroup;
+			children = (
+				2F620AB51C8A69E700A62469 /* Unleash Your Demon */,
+				2F620AB41C8A69E700A62469 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F620AB41C8A69E700A62469 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F620AB31C8A69E700A62469 /* Unleash Your Demon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F620AB51C8A69E700A62469 /* Unleash Your Demon */ = {
+			isa = PBXGroup;
+			children = (
+				2F620AB61C8A69E700A62469 /* AppDelegate.swift */,
+				2F620AB81C8A69E700A62469 /* ViewController.swift */,
+				2F620ABA1C8A69E700A62469 /* Main.storyboard */,
+				2F620ABD1C8A69E700A62469 /* Assets.xcassets */,
+				2F620ABF1C8A69E700A62469 /* LaunchScreen.storyboard */,
+				2F620AC21C8A69E700A62469 /* Info.plist */,
+			);
+			path = "Unleash Your Demon";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F620AB21C8A69E700A62469 /* Unleash Your Demon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F620AC51C8A69E700A62469 /* Build configuration list for PBXNativeTarget "Unleash Your Demon" */;
+			buildPhases = (
+				2F620AAF1C8A69E700A62469 /* Sources */,
+				2F620AB01C8A69E700A62469 /* Frameworks */,
+				2F620AB11C8A69E700A62469 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Unleash Your Demon";
+			productName = "Unleash Your Demon";
+			productReference = 2F620AB31C8A69E700A62469 /* Unleash Your Demon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F620AAB1C8A69E700A62469 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Tyler Neveldine";
+				TargetAttributes = {
+					2F620AB21C8A69E700A62469 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 2F620AAE1C8A69E700A62469 /* Build configuration list for PBXProject "Unleash Your Demon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F620AAA1C8A69E700A62469;
+			productRefGroup = 2F620AB41C8A69E700A62469 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F620AB21C8A69E700A62469 /* Unleash Your Demon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F620AB11C8A69E700A62469 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F620AC11C8A69E700A62469 /* LaunchScreen.storyboard in Resources */,
+				2F620ABE1C8A69E700A62469 /* Assets.xcassets in Resources */,
+				2F620ABC1C8A69E700A62469 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F620AAF1C8A69E700A62469 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F620AB91C8A69E700A62469 /* ViewController.swift in Sources */,
+				2F620AB71C8A69E700A62469 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2F620ABA1C8A69E700A62469 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F620ABB1C8A69E700A62469 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F620ABF1C8A69E700A62469 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F620AC01C8A69E700A62469 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F620AC31C8A69E700A62469 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2F620AC41C8A69E700A62469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F620AC61C8A69E700A62469 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Unleash Your Demon/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tyler-neveldine.Unleash-Your-Demon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2F620AC71C8A69E700A62469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Unleash Your Demon/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tyler-neveldine.Unleash-Your-Demon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F620AAE1C8A69E700A62469 /* Build configuration list for PBXProject "Unleash Your Demon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F620AC31C8A69E700A62469 /* Debug */,
+				2F620AC41C8A69E700A62469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F620AC51C8A69E700A62469 /* Build configuration list for PBXNativeTarget "Unleash Your Demon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F620AC61C8A69E700A62469 /* Debug */,
+				2F620AC71C8A69E700A62469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F620AAB1C8A69E700A62469 /* Project object */;
+}
