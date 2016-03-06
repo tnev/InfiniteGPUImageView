@@ -1,40 +1,53 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="I30-dh-xY4">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Video Screen Page View Controller-->
+        <scene sceneID="uE2-Pw-7Jr">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Unleash_Your_Demon" customModuleProvider="target" sceneMemberID="viewController">
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="I30-dh-xY4" customClass="VideoScreenPageViewController" customModule="Unleash_Your_Demon" customModuleProvider="target" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </pageViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7M0-iQ-Q3g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-89.5" y="-105.5"/>
+        </scene>
+        <!--Video Screen View Controller-->
+        <scene sceneID="pM9-zB-h75">
+            <objects>
+                <viewController storyboardIdentifier="videoScreenViewController" id="FJx-Kw-Ff3" customClass="VideoScreenViewController" customModule="Unleash_Your_Demon" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="UVl-cI-AL2"/>
+                        <viewControllerLayoutGuide type="bottom" id="or7-kt-njn"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="oXM-aB-UH2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xOX-2k-mIq">
-                                <rect key="frame" x="73" y="326" width="248" height="128"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oBC-Fp-dhk" customClass="VideoScreenView" customModule="Unleash_Your_Demon" customModuleProvider="target">
+                                <rect key="frame" x="-0.5" y="0.5" width="375" height="667"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="xOX-2k-mIq" secondAttribute="bottom" constant="213" id="6TH-rj-f7Q"/>
-                            <constraint firstItem="xOX-2k-mIq" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="306" id="VEG-H6-376"/>
-                            <constraint firstItem="xOX-2k-mIq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="57" id="eDj-mr-tUm"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="xOX-2k-mIq" secondAttribute="trailing" constant="38" id="yBZ-e5-awY"/>
+                            <constraint firstItem="oBC-Fp-dhk" firstAttribute="centerY" secondItem="oXM-aB-UH2" secondAttribute="centerY" id="0aK-TZ-dkL"/>
+                            <constraint firstItem="oBC-Fp-dhk" firstAttribute="centerX" secondItem="oXM-aB-UH2" secondAttribute="centerX" id="0yM-jl-WC3"/>
+                            <constraint firstItem="oBC-Fp-dhk" firstAttribute="width" secondItem="oXM-aB-UH2" secondAttribute="width" id="Vd9-P9-wTp"/>
+                            <constraint firstItem="oBC-Fp-dhk" firstAttribute="height" secondItem="oXM-aB-UH2" secondAttribute="height" id="sZj-cb-IXX"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="videoScreenView" destination="oBC-Fp-dhk" id="X9h-lp-l0F"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CNV-Ex-x2d" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="412.5" y="-105.5"/>
         </scene>
     </scenes>
 </document>

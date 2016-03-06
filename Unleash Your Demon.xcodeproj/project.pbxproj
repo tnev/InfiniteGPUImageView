@@ -15,6 +15,8 @@
 		2F620AD71C8B469D00A62469 /* GPUImage.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2F620AD21C8B44FE00A62469 /* GPUImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2F620ADC1C8B55A800A62469 /* VideoCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F620ADB1C8B55A800A62469 /* VideoCamera.swift */; };
 		2F620ADE1C8B5BBB00A62469 /* VideoScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F620ADD1C8B5BBB00A62469 /* VideoScreenView.swift */; };
+		2F620AE21C8BE7AA00A62469 /* VideoScreenPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F620AE11C8BE7AA00A62469 /* VideoScreenPageViewController.swift */; };
+		2F620AE41C8BEAA500A62469 /* VideoScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F620AE31C8BEAA500A62469 /* VideoScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,8 @@
 		2F620AC91C8B44FD00A62469 /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = "../../../GitHub Repos/GPUImage/framework/GPUImage.xcodeproj"; sourceTree = "<group>"; };
 		2F620ADB1C8B55A800A62469 /* VideoCamera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCamera.swift; sourceTree = "<group>"; };
 		2F620ADD1C8B5BBB00A62469 /* VideoScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoScreenView.swift; sourceTree = "<group>"; };
+		2F620AE11C8BE7AA00A62469 /* VideoScreenPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoScreenPageViewController.swift; sourceTree = "<group>"; };
+		2F620AE31C8BEAA500A62469 /* VideoScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +150,8 @@
 			children = (
 				2F620ADB1C8B55A800A62469 /* VideoCamera.swift */,
 				2F620ADD1C8B5BBB00A62469 /* VideoScreenView.swift */,
+				2F620AE31C8BEAA500A62469 /* VideoScreenViewController.swift */,
+				2F620AE11C8BE7AA00A62469 /* VideoScreenPageViewController.swift */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -248,7 +254,9 @@
 			files = (
 				2F620ADE1C8B5BBB00A62469 /* VideoScreenView.swift in Sources */,
 				2F620ADC1C8B55A800A62469 /* VideoCamera.swift in Sources */,
+				2F620AE21C8BE7AA00A62469 /* VideoScreenPageViewController.swift in Sources */,
 				2F620AB71C8A69E700A62469 /* AppDelegate.swift in Sources */,
+				2F620AE41C8BEAA500A62469 /* VideoScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

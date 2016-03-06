@@ -12,8 +12,9 @@ import GPUImage
 class VideoCamera: GPUImageVideoCamera {
     
     override init() {
-        super.init(sessionPreset: AVCaptureSessionPreset1280x720, cameraPosition: AVCaptureDevicePosition.Back)
+        super.init(sessionPreset: AVCaptureSessionPreset1280x720, cameraPosition: AVCaptureDevicePosition.Front)
         horizontallyMirrorFrontFacingCamera = true
+        outputImageOrientation = UIInterfaceOrientation.Portrait
     }
     
 }
