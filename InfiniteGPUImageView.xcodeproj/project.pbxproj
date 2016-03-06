@@ -17,6 +17,7 @@
 		2F620ADE1C8B5BBB00A62469 /* VideoScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F620ADD1C8B5BBB00A62469 /* VideoScreenView.swift */; };
 		2F620AE21C8BE7AA00A62469 /* VideoScreenPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F620AE11C8BE7AA00A62469 /* VideoScreenPageViewController.swift */; };
 		2F620AE41C8BEAA500A62469 /* VideoScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F620AE31C8BEAA500A62469 /* VideoScreenViewController.swift */; };
+		2FDCE9001C8CB3130091CE24 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2FDCE8FF1C8CB3130091CE24 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		2F620ADD1C8B5BBB00A62469 /* VideoScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoScreenView.swift; sourceTree = "<group>"; };
 		2F620AE11C8BE7AA00A62469 /* VideoScreenPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoScreenPageViewController.swift; sourceTree = "<group>"; };
 		2F620AE31C8BEAA500A62469 /* VideoScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoScreenViewController.swift; sourceTree = "<group>"; };
+		2FDCE8FF1C8CB3130091CE24 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 			children = (
 				2F620AB61C8A69E700A62469 /* AppDelegate.swift */,
 				2F620AC21C8A69E700A62469 /* Info.plist */,
+				2FDCE8FF1C8CB3130091CE24 /* .gitignore */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FDCE9001C8CB3130091CE24 /* .gitignore in Resources */,
 				2F620AC11C8A69E700A62469 /* LaunchScreen.storyboard in Resources */,
 				2F620ABE1C8A69E700A62469 /* Assets.xcassets in Resources */,
 				2F620ABC1C8A69E700A62469 /* Main.storyboard in Resources */,

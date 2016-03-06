@@ -1,6 +1,6 @@
 //
 //  VideoScreen.swift
-//  Unleash Your Demon
+//  InfiniteGPUImageView
 //
 //  Created by Tyler Neveldine on 3/5/16.
 //  Copyright © 2016 Tyler Neveldine. All rights reserved.

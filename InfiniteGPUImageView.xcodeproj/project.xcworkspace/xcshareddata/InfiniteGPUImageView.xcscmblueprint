@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1ADDAC14FD79C965F9596FAA99C8F8AF7E8AA9C1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1ADDAC14FD79C965F9596FAA99C8F8AF7E8AA9C1" : 0,
+    "E609DD15689CC93D8F4D219EB393F30F9F726178" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B5A7E8E3-266B-4B5C-B042-8C8C205FD79E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1ADDAC14FD79C965F9596FAA99C8F8AF7E8AA9C1" : "InfiniteGPUImageView\/",
+    "E609DD15689CC93D8F4D219EB393F30F9F726178" : "..\/GitHub%20Repos\/GPUImage"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "InfiniteGPUImageView",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "InfiniteGPUImageView.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tnev\/InfiniteGPUImageView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1ADDAC14FD79C965F9596FAA99C8F8AF7E8AA9C1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tnev\/GPUImage.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E609DD15689CC93D8F4D219EB393F30F9F726178"
+    }
+  ]
+}
