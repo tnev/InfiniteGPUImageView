@@ -57,7 +57,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2F620AB31C8A69E700A62469 /* Unleash Your Demon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unleash Your Demon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F620AB31C8A69E700A62469 /* InfiniteGPUImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfiniteGPUImageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F620AB61C8A69E700A62469 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F620ABB1C8A69E700A62469 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2F620ABD1C8A69E700A62469 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -85,7 +85,7 @@
 		2F620AAA1C8A69E700A62469 = {
 			isa = PBXGroup;
 			children = (
-				2F620AB51C8A69E700A62469 /* Unleash Your Demon */,
+				2F620AB51C8A69E700A62469 /* InfiniteGPUImageView */,
 				2F620AB41C8A69E700A62469 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,12 +93,12 @@
 		2F620AB41C8A69E700A62469 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2F620AB31C8A69E700A62469 /* Unleash Your Demon.app */,
+				2F620AB31C8A69E700A62469 /* InfiniteGPUImageView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2F620AB51C8A69E700A62469 /* Unleash Your Demon */ = {
+		2F620AB51C8A69E700A62469 /* InfiniteGPUImageView */ = {
 			isa = PBXGroup;
 			children = (
 				2F620ADA1C8B497400A62469 /* Classes */,
@@ -106,7 +106,7 @@
 				2F620AC81C8B438C00A62469 /* Frameworks */,
 				2F620AD91C8B496000A62469 /* Resources */,
 			);
-			path = "Unleash Your Demon";
+			path = InfiniteGPUImageView;
 			sourceTree = "<group>";
 		};
 		2F620AC81C8B438C00A62469 /* Frameworks */ = {
@@ -159,9 +159,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2F620AB21C8A69E700A62469 /* Unleash Your Demon */ = {
+		2F620AB21C8A69E700A62469 /* InfiniteGPUImageView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2F620AC51C8A69E700A62469 /* Build configuration list for PBXNativeTarget "Unleash Your Demon" */;
+			buildConfigurationList = 2F620AC51C8A69E700A62469 /* Build configuration list for PBXNativeTarget "InfiniteGPUImageView" */;
 			buildPhases = (
 				2F620AAF1C8A69E700A62469 /* Sources */,
 				2F620AB01C8A69E700A62469 /* Frameworks */,
@@ -173,9 +173,9 @@
 			dependencies = (
 				2F620AD41C8B461600A62469 /* PBXTargetDependency */,
 			);
-			name = "Unleash Your Demon";
+			name = InfiniteGPUImageView;
 			productName = "Unleash Your Demon";
-			productReference = 2F620AB31C8A69E700A62469 /* Unleash Your Demon.app */;
+			productReference = 2F620AB31C8A69E700A62469 /* InfiniteGPUImageView.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -193,7 +193,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2F620AAE1C8A69E700A62469 /* Build configuration list for PBXProject "Unleash Your Demon" */;
+			buildConfigurationList = 2F620AAE1C8A69E700A62469 /* Build configuration list for PBXProject "InfiniteGPUImageView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -212,7 +212,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				2F620AB21C8A69E700A62469 /* Unleash Your Demon */,
+				2F620AB21C8A69E700A62469 /* InfiniteGPUImageView */,
 			);
 		};
 /* End PBXProject section */
@@ -376,10 +376,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = "Unleash Your Demon/Info.plist";
+				INFOPLIST_FILE = InfiniteGPUImageView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tyler-neveldine.Unleash-Your-Demon";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tyler-neveldine.";
+				PRODUCT_NAME = InfiniteGPUImageView;
 			};
 			name = Debug;
 		};
@@ -388,17 +388,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = "Unleash Your Demon/Info.plist";
+				INFOPLIST_FILE = InfiniteGPUImageView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tyler-neveldine.Unleash-Your-Demon";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tyler-neveldine.";
+				PRODUCT_NAME = InfiniteGPUImageView;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2F620AAE1C8A69E700A62469 /* Build configuration list for PBXProject "Unleash Your Demon" */ = {
+		2F620AAE1C8A69E700A62469 /* Build configuration list for PBXProject "InfiniteGPUImageView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2F620AC31C8A69E700A62469 /* Debug */,
@@ -407,13 +407,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2F620AC51C8A69E700A62469 /* Build configuration list for PBXNativeTarget "Unleash Your Demon" */ = {
+		2F620AC51C8A69E700A62469 /* Build configuration list for PBXNativeTarget "InfiniteGPUImageView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2F620AC61C8A69E700A62469 /* Debug */,
 				2F620AC71C8A69E700A62469 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
